@@ -1,0 +1,338 @@
+*{
+  padding:0;
+  margin:0;
+}
+.container{
+  width: 1145px;
+  margin: 0 auto;
+}
+header{
+  width: 100%;
+  float: left;
+  height: 50px;
+  background: #FFFFFF;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+/* headimg headimg headimg */
+.headimg{
+  width: 15%;
+  float: left;
+  padding-top: 10px;
+  margin-top: 3px;
+  text-align: center;
+}
+/* nav-bar nav-bar  nav-bar  nav-bar */
+.nav-bar{
+  width: 57%;
+  float: left;
+}
+.nav-bar ul{
+  list-style: none;
+}
+.nav-bar ul li{
+  display: inline-block;
+  margin: 16px 25px 16px 31px;
+}
+.nav-bar ul li a{
+text-decoration: none;
+font-size: 18px;
+color: #60645D;
+}
+/* Social Icons Social Icons Social Icons */
+.social-icons{
+  width: 25%;
+  float: left;
+}
+.social-icons ul{
+  list-style: none;
+}
+.social-icons ul li{
+  display: inline-block;
+  margin: 8px 4px;
+  padding: 5px;
+  font-size: 21px;
+}
+.social-icons ul li a{
+  font-size: 22px;
+}
+.fa.fa-facebook-official{
+  color: #1B3189;
+}
+.fa.fa-linkedin-square{
+color: #2597F7;
+}
+.fa.fa-twitter-square{
+  color: #4951AA;
+}
+.fa.fa-google-plus-square{
+  color: #A12115;
+}
+.fa.fa-sign-in{
+  color: #2F3464;
+}
+/*img section ==== img section img section ==== img section */
+.image{
+  height: 500px;
+  width: 100%;
+  float: left;
+  
+}
+.image .box{
+  background-image: url(../img/img.jpg);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.business{
+  width: 100%;
+  float: left;
+  height: 100%;
+}
+.smallbox{
+  background: #101515;
+  width: 37%;
+  margin: 10% auto 6%;
+  padding: 20px;
+  opacity: 0.7;
+}
+.smallbox h1{
+  font-size: 66px;
+  text-align: center;
+  color: #FFF;
+  }
+.smallbox h6{
+  font-size: 16px;
+  color: #fff;
+}
+.smallbox ul{
+  list-style: none;
+}
+.smallbox ul li{
+  display: inline-block;
+  margin: 32px 10px 10px 12px;
+}
+.smallbox ul li a{
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #014371;
+  padding: 10px;
+  border-radius: 5px;
+  background: #000B3C;
+}
+.smallbox ul li a:hover{
+  background: #63C534;
+}
+.about{
+width:100%;
+float: left;
+text-align: center;
+}
+.about h3{
+  padding: 12px;
+}
+.about a{
+  text-decoration: none;
+  border: 1px solid #999;
+  padding: 5px 15px;
+  background: #63C62E;
+  border-radius: 2px;
+  color: #fff;
+  font-size:17px;
+}
+.about p{
+  margin-bottom: 13px;
+}
+.about1{
+  width: 18%;
+  float: left;
+   padding: 12px;
+   margin: 58px 0px 0px 100px;
+}
+.about2{
+  width:18%;
+  float: left;
+  padding: 12px;
+  margin-top: 58px;
+}
+.about3{
+  width: 18%;
+  float: left;
+   padding: 12px;
+  margin-top: 58px;
+}
+.about4{
+  width: 18%;
+  float: left;
+  padding: 12px;
+  margin-top: 58px;
+}
+.fa.fa-check{
+  font-size: 63px;
+  color: #FFF4FE;
+  background: #6979CC;
+  padding: 5px 12px;
+  border-radius: 50%;
+}
+.fa.fa-map-marker{
+  font-size: 63px;
+  color: #FFF4FE;
+  background: #009788;
+  padding: 5px 12px;
+  border-radius: 50%;
+}
+.fa.fa-money{
+  font-size: 63px;
+  color: #FFF4FE;
+  background: #4CB050;
+  padding: 5px 12px;
+  border-radius: 50%;
+}
+.fa.fa-user-plus{
+  font-size: 63px;
+  color: #FFF4FE;
+  background: #97E268;
+  padding: 5px 12px;
+  border-radius: 50%;
+}
+.invest{
+  width: 100%;
+  float: left;
+  margin: 34px 2px 15px;
+}
+.invest ul{
+  font-size: 16px;
+}
+.invest h2{
+  text-align: center;
+}
+.invest a{
+  text-decoration: none;
+    border: 1px solid #999;
+    padding: 6px 10px;
+    background: #5EC928;
+    margin: 5px 5px 10px -12px;
+    color: #FFF4FE;
+}
+.invest1{
+     width: 27%;
+    float: left;
+    border: 1px solid #999;
+    background: #B8CCD5;
+    padding: 36px 35px 39px 58px;
+    line-height: 34px;
+    margin: 0px 20px 20px 140px;
+}
+.invest2{
+     width: 27%;
+    float: left;
+    border: 1px solid #999;
+    background: #B8CCD5;
+    padding: 36px 35px 39px 58px;
+    line-height: 34px;
+    margin: 0px 14px 20px 16px;
+}
+
+/* blog section === Blog Section blog section === Blog Section */
+.blog{
+width: 100%;
+float: left;
+}
+.blog1{
+  width: 35%;
+  float: left;
+  padding: 17px;
+  margin: 0px -1px 20px 143px;
+}
+.blog2{
+  width: 35%;
+  float: left;
+  padding: 17px;
+  margin: 0px 2px 20px 7px;
+}
+.blog h1{
+  text-align: center;
+  color: #00496A;
+  margin-bottom: 25px;
+}
+.blog h3{
+  color: #00496A;
+  margin-bottom: 21px;
+}
+.blog .blog1 p{
+  margin-bottom: 15px;
+}
+.blog .blog2 p{
+margin-bottom: 36.5px;
+}
+.blog a{
+  text-decoration: none;
+  border: 1px solid #999;
+  padding: 7px 10px;
+  background: #63C42A;
+  color: #FFF4FE;
+}
+/* Trust Section === Trust SectionTrust Section === Trust Section*/
+.trust{
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.trust1{
+  width: 90%;
+  float: left;
+  margin: 20px 0px 20px 56px;
+}
+
+.trust1 p .fa.fa-star-o{
+  font-size: 40px;
+}
+.trust1 .fa.fa-star-o{
+  font-size: 18px;
+}
+.trust1 #star1{
+  color: #06B37E;
+}
+.trust1 #star2{
+  
+}
+.trust1 #star3{
+  
+}
+.trust1 #star4{
+  
+}
+.trust1 #star5{
+  
+}
+.trust1 #star6{
+  
+}
+.copy{
+  width: 100%;
+  float: left;
+}
+.copy1{
+      width: 45%;
+    float: left;
+   padding: 35px 15px 15px 20px;
+    background: #062E39;
+    color: #FFF4EF;
+    text-align: end;
+}
+.copy2{
+      width: 45%;
+    float: left;
+    padding: 35px 15px 15px 20px;
+    background: #062E39;
+    color: #FFF4EF;
+}
+.copy h5{
+  background: #062E39;
+  text-align: center;
+  color: #FFF4EF;
+  padding: 5px 0px 5px 5px;
+  margin-right: 44px;
+}
